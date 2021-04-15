@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/base.css">
+    <title>４行日記</title>
+</head>
+<body>
+
+    <header id="header">
+        <img id="root" src="../img/folder.png" style="margin-right:1em;" />
+        <img id="prev" src="../img/prev.png" />
+        <span id="currentDate" class="date">2021/04/15</span>
+        <img id="next" src="../img/next.png" />
+        <img id="save" src="../img/save.png" style="margin-left:1em;" />
+    </header>
+
+    <div id="form">
+    <label>事実</label><input id="line1" type="text" placeholder="起こった事実を１つ" value="あいうえおかきくけこさしすせそたちつてと"/><br/>
+    <label>発見</label><input id="line2" type="text" placeholder="事実を振り返って得た気づき"/><br/>
+    <label>教訓</label><input id="line3" type="text" placeholder="気づきから得た教訓"/><br/>
+    <label>宣言</label><input id="line4" type="text" placeholder="将来自分がありたい姿の宣言(現在進行形)"/><br/>
+    <textarea id="freeSpace" placeholder="フリースペース"></textarea>
+    </div>
+
+
+    <script src="diary-main-renderer.js"></script>
+</body>
+</html>
